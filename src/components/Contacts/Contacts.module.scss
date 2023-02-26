@@ -1,0 +1,13 @@
+@use './../../styles/mixins.scss';
+
+.contacts {
+  display: flex;
+  background: #007791;
+  @include mixins.module_padding;
+}
+
+.contacts_wrap {
+  @include mixins.container;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,17 @@
+@mixin container {
+  display: flex;
+  margin: 0 auto;
+  //max-width: 1024px;
+  width: 80%;
+  height: 100%;
+  border: 1px solid #5e5e5e;
+  flex-wrap: wrap;
+}
+
+@mixin module_title {
+  text-align: center;
+}
+
+@mixin module_padding {
+  padding: 60px 0;
+}

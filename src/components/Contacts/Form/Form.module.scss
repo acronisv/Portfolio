@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form_name, .form_phone {
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.form_text {
+  height: 100px;
+}

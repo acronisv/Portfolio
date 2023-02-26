@@ -1,0 +1,21 @@
+@use './../../styles/mixins.scss';
+
+.nav {
+  @include mixins.container;
+  justify-content: flex-end;
+}
+
+.menu_wrap {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu_item {
+  margin-right: 15px;
+}
+
+.menu_item:last-of-type {
+  margin-right: 0;
+}

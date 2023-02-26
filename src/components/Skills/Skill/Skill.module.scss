@@ -1,0 +1,17 @@
+@use './../../../styles/mixins.scss';
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: #C1C1C1;
+  align-items: center;
+  border: 1px solid #5e5e5e;
+  margin-bottom: 40px;
+}
+
+.skill_icon {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}

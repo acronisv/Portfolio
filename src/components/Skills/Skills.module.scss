@@ -1,0 +1,23 @@
+@use './../../styles/mixins.scss';
+
+.skills {
+  display: flex;
+  background: #3ed4a8;
+  @include mixins.module_padding;
+}
+
+.skills_wrap {
+  @include mixins.container;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills_title {
+  @include mixins.module_title
+}
+
+.skills_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

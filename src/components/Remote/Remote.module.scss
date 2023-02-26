@@ -1,0 +1,15 @@
+@use './../../styles/mixins.scss';
+
+.remote {
+  display: flex;
+  background: #20a8d8;
+  @include mixins.module_padding;
+}
+
+.remote_wrap {
+  @include mixins.container;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}

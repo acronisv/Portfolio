@@ -1,0 +1,19 @@
+@use '../../styles/mixins';
+
+.projects {
+  display: flex;
+  background: #1db4c2;
+  @include mixins.module_padding;
+}
+
+.projects_wrap {
+  @include mixins.container;
+  flex-direction: column;
+}
+
+.projects_container {
+  border: 1px solid #5e5e5e;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

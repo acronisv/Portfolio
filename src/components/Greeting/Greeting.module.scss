@@ -1,0 +1,14 @@
+@use './../../styles/mixins.scss';
+
+.greeting {
+  background: #d6efb0;
+  height: 100vh;
+  overflow: hidden;
+  @include mixins.module_padding;
+}
+
+.greeting_wrap {
+  @include mixins.container;
+  justify-content: space-around;
+  align-items: center;
+}

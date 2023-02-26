@@ -1,0 +1,30 @@
+.project {
+  display: flex;
+  background: #f6eeaa;
+  border: 1px solid #5e5e5e;
+  max-width: 350px;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.project_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background: #5e5e5e;
+}
+
+.project_link {
+  color: #ffffff;
+}
+
+.project_link:hover {
+  opacity: 0.7;
+}
+
+.project_info {
+  padding: 5px 15px;
+  text-align: left;
+}
+
