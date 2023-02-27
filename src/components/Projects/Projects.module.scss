@@ -11,9 +11,19 @@
   flex-direction: column;
 }
 
+.projects_title {
+  @include mixins.module_title;
+}
+
 .projects_container {
   border: 1px solid #5e5e5e;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+@media (max-width: 886px) {
+  .projects_container {
+    justify-content: center;
+  }
 }

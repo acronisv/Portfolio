@@ -21,3 +21,9 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+@media (max-width: 940px) {
+  .skills_container {
+    justify-content: space-around;
+  }
+}

@@ -6,7 +6,7 @@ export const Remote = () => {
     return (
         <div className={s.remote}>
             <div className={s.remote_wrap}>
-                <h2>Рассматриваю вариант удаленной работы</h2>
+                <h2 className={s.remote_title}>Рассматриваю вариант удаленной работы</h2>
                 <Button name={'Hire me'}/>
             </div>
         </div>

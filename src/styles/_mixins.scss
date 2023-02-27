@@ -10,6 +10,8 @@
 
 @mixin module_title {
   text-align: center;
+  background: #f6eeaa;
+  margin: 10px auto 20px auto;
 }
 
 @mixin module_padding {
